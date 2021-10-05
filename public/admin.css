@@ -1,0 +1,58 @@
+*{
+    text-decoration: none;
+}
+.abu-link:hover {
+    background-color:gray;
+}
+.how1:hover {
+    background-color:gray;
+}
+
+.abu-link1 {
+    
+    margin-left: 37px;
+    font-size: 13px;
+}
+
+.card-body-icon{
+    position: absolute;
+    z-index: 0;
+    top: 16px;
+    right: 3px;
+    font-size: 90px;
+    
+}
+
+.card
+{
+    background-color:#FF4848;
+    font-size: 15px;
+}
+
+.card2
+{
+    background-color:#3a04ff;
+    font-size: 20px;
+}
+.card-title{
+    font-size: 16px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Jika ukuran layar 680px atau kurang dari itu */
+
+@media screen and (max-width:680px){
+
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+}
